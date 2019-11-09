@@ -19,7 +19,7 @@ jobs:
       with:
         submodules: true
     - name: Setting up Vcpkg
-      uses: dldt/setup-vcpkg@v1.0.0
+      uses: dldt/setup-vcpkg@v1
       id: vcpkg
     - name: Uploading artifacts
       uses: actions/upload-artifact@v1
